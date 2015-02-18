@@ -7,8 +7,11 @@ h1 {
   color: #304860;
 }
 section{
+	li{
+		display :inline;
+	}
 	position :relative;
 	margin: 0 -9999rem;
 	padding: 0 9999rem;
-	background: red;
+	background: #A8C0D8;
 }

@@ -8,15 +8,16 @@ h1 {
 }
 header{
 	height: 45px;
-	float: right;
 	max-height: 45px;
 	width: 100%;
 	background: #304848;
 }
 ul, .nav-bar{
+	position:fixed;
 	li{
 		display :inline;
 	}
+	float: right;
 	position :fixed;
 	color:#F0D8D8;
 }

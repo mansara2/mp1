@@ -11,6 +11,10 @@ ul, .nav-bar{
 		display :inline;
 	}
 	position :fixed;
+	height: 45px;
+	float: right;
+	max-height: 45px;
+	width: 100%;
 	color:#F0D8D8;
 	background: #304848;
 }

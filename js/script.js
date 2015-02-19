@@ -40,15 +40,19 @@ $('#lftarrw').click(
 			$(this).find("li.last").after($(this).find("li.first"));
 			$(this).css({marginLeft:0});
 		},5000);
-});
+		});
+	});
 
 //right arrow movement
-$('#rghtarrw').click(function(){
+$('#rghtarrw').click(
 	function(){
 		var t = setInterval(
 		function(){
-			$("#carousel ul").animate({marginLeft:+480},1000,function(){
-			$(this).find("li.first").after($(this).find("li.last"));
-			$(this).css({marginLeft:0});
-		},5000);
-});
+			$("#carousel ul").animate({marginLeft:+480},1000,
+			function(){
+				$(this).find("li.first").after($(this).find("li.last"));
+				$(this).css({marginLeft:0});
+			}
+			,5000);
+		});
+	});

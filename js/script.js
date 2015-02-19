@@ -34,11 +34,11 @@ $(function() {
 //right arrow movement
 $('#rghtarrw').click(
 	function(){
-		$("#carousel ul").animate({"margin-left":"500px"});
+		$("#ul").animate({"margin-left":"500px"});
 	});
 
 //left arrow movement
 $('#lftarrw').click(
 	function(){
-		$("#carousel ul").animate({"margin-left":"-500px"});
+		$("#ul").animate({"margin-left":"-500px"});
 	});

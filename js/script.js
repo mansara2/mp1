@@ -36,10 +36,11 @@ $('#lftarrw').click(
 	function(){
 		var t = setInterval(
 		function(){
-			$("#carousel ul").animate({marginLeft:-480},1000,function(){
+			$("#carousel ul").animate({marginLeft:-500},1000,
+			function(){
 			$(this).find("#last").after($(this).find("#first"));
 			$(this).css({marginLeft:0});
-		},5000);
+			},5000);
 		});
 	});
 
@@ -48,10 +49,10 @@ $('#rghtarrw').click(
 	function(){
 		var t = setInterval(
 		function(){
-			$("#carousel ul").animate({marginLeft:480},1000,
+			$("#carousel ul").animate({marginLeft:500},1000,
 			function(){
 				$(this).find("#first").after($(this).find("#last"));
-				$(this).css({marginLeft:0});
+				$(this).css({marginLeft:1500});
 			}
 			,5000);
 		});

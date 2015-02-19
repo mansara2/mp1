@@ -34,7 +34,7 @@ $(function() {
 //left arrow movement
 $('#rghtarrw').click(
 	function(){
-		$("#carousel ul").animate({"margin-left":"-=500px"}, slow);
+		$("#carousel ul").animate({"margin-left":"+=500px"}, slow);
 	});
 
 //right arrow movement

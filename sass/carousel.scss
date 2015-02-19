@@ -1,13 +1,11 @@
 #carousel{
 	width:500px;
-	display: inline;
 	overflow:hidden;
 }
 #carousel ul {
 		width: 1500px;
 		padding: 0;
 		margin: 0;
-		display: inline;
 }
 
 #carousel ul li {
@@ -15,5 +13,5 @@
 		text-align: center;
 		height: 400px;
 		list-style: none;
-		display: inline;
+		float: left;
 }

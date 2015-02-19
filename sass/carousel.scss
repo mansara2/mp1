@@ -1,16 +1,16 @@
 #carousel{
 	width:500px;
-	display: inline;
+	float: left;
 	overflow:hidden;
 }
 #conatiner{
-	display: inline;
+	float: left;
 }
 #carousel ul {
 		width: 150px;
 		padding: 0;
 		margin: 0;
-		display: inline;
+		float: left;
 }
 
 #carousel ul li {

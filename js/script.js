@@ -31,18 +31,14 @@ $(function() {
 });
 //carousel
 
-//left arrow movement
+//right arrow movement
 $('#rghtarrw').click(
 	function(){
-		$("#carousel ul").animate({"margin-left":"+=500px"});
+		$("#carousel ul").animate({"margin-left":"500px"});
 	});
 
-//right arrow movement
+//left arrow movement
 $('#lftarrw').click(
 	function(){
-		$("#carousel ul").animate({marginLeft:500},{duration:5000},
-		function(){
-			$(this).find("#first").after($(this).find("#last"));
-			$(this).css({marginLeft:1500});
-		});
+		$("#carousel ul").animate({"margin-left":"-500px"});
 	});

@@ -2,6 +2,7 @@
 #nav {
   background: #304848;
   width: auto;
+  position: fixed;
 }
 #nav ul {
   list-style: none;
@@ -47,7 +48,7 @@
   transition: color .25s;
 }
 #nav ul li a:hover {
-  color: #333333;
+  color: white;
 }
 #nav ul li a:hover:before {
   width: 100%;
@@ -60,7 +61,7 @@
   top: 19px;
   height: 6px;
   width: 6px;
-  background: #ffffff;
+  background: #A8C0D8;
   opacity: .5;
 }
 #nav ul li a:before {
@@ -71,7 +72,7 @@
   bottom: 0;
   height: 3px;
   width: 0;
-  background: #333333;
+  background: #A8C0D8;
   -webkit-transition: width .25s;
   -moz-transition: width .25s;
   -ms-transition: width .25s;

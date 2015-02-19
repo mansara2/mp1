@@ -1,5 +1,6 @@
 #carousel{
 	width:500px;
+	height:500px;
 	overflow:hidden;
 }
 #carousel ul {
@@ -9,9 +10,14 @@
 }
 
 #carousel ul li {
+		display: inline-block;
 		width:480px;
 		text-align: center;
 		height: 280px;
 		list-style: none;
 		float:	left;
+}
+#carousel ul li img.resize{
+    width:500px; 
+    height: 500px;
 }

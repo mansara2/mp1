@@ -34,19 +34,19 @@ $(function() {
 //left arrow movement
 $('#lftarrw').click(
 	function(){
-		$("#carousel ul").animate({marginLeft:-500},1000,
+		$("#carousel ul").animate({margin-left:-500},1000,
 		function(){
-		$(this).find("#last").after($(this).find("#first"));
-		$(this).css({marginLeft:0});
+			$(this).find("#last").after($(this).find("#first"));
+			$(this).css({margin-left:0});
 		});
 	});
 
 //right arrow movement
 $('#rghtarrw').click(
 	function(){
-		$("#carousel ul").animate({marginLeft:500},1000,
+		$("#carousel ul").animate({margin-left:500},1000,
 		function(){
 			$(this).find("#first").after($(this).find("#last"));
-			$(this).css({marginLeft:1500});
+			$(this).css({margin-left:1500});
 		});
 	});

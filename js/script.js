@@ -34,7 +34,7 @@ $(function() {
 //left arrow movement
 $('#rghtarrw').click(
 	function(){
-		$("#carousel ul").animate({marginLeft:-500}, {duration:5000},
+		$("#carousel ul").animate({"margin-left":"-=500px"}, slow,
 		function(){
 			$(this).find("#last").after($(this).find("#first"));
 			$(this).css({marginLeft:-500});

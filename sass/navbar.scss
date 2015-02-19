@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
-#nav menu {
-  background: #f96e5b;
+#nav {
+  background: #304848;
   width: auto;
 }
 #nav ul {
@@ -31,7 +31,7 @@
   text-align: center;
 }
 #nav ul li a {
-  color: #ffffff;
+  color: #F0D8D8;
   text-decoration: none;
   display: block;
   padding: 15px 25px;
@@ -83,7 +83,7 @@
   display: none;
 }
 #nav ul li.active a {
-  color: #333333;
+  color: #F0D8D8;
 }
 #nav ul li.active a:before {
   width: 100%;

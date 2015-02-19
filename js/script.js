@@ -32,7 +32,7 @@ $(function() {
 //carousel
 
 //left arrow movement
-$('#lftarrw').click(
+$('#rghtarrw').click(
 	function(){
 		$("#carousel ul").animate({marginLeft:-500}, {duration:5000},
 		function(){
@@ -42,7 +42,7 @@ $('#lftarrw').click(
 	});
 
 //right arrow movement
-$('#rghtarrw').click(
+$('#lftarrw').click(
 	function(){
 		$("#carousel ul").animate({marginLeft:500},{duration:5000},
 		function(){

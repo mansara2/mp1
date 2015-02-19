@@ -15,7 +15,7 @@ function highlightThis(event) {
     this.style.backgroundColor=backgroundColor;
 }
 //smooth scrolling
-$(function() {
+/* $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -28,7 +28,7 @@ $(function() {
       }
     }
   });
-});
+}); */
 //carousel
 
 //right arrow movement

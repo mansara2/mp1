@@ -34,11 +34,11 @@ function highlightThis(event) {
 //right arrow movement
 $('#rghtarrw').click(
 	function(){
-		$("#ul").animate({"margin-left":"+=500px"});
+		$("#ul").animate({"margin-left":"+=500px"},5000);
 	});
 
 //left arrow movement
 $('#lftarrw').click(
 	function(){
-		$("#ul").animate({"margin-left":"-=500px"});
+		$("#ul").animate({"margin-left":"-=500px"},5000);
 	});

@@ -14,6 +14,22 @@ function highlightThis(event) {
     alert(this.className);
     this.style.backgroundColor=backgroundColor;
 }
+//carousel
+
+//right arrow movement
+$('#rghtarrw').click(
+	function(){
+		alert("hello");
+		$("#ul").css({"margin-left":"500px"});
+		//animate(,5000);
+	});
+
+//left arrow movement
+$('#lftarrw').click(
+	function(){
+		$("#ul").css({"margin-left":"500px"});
+		//animate({"margin-left":"-=500px"},5000);
+	});
 //smooth scrolling
 /* $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -29,18 +45,3 @@ function highlightThis(event) {
     }
   });
 }); */
-//carousel
-
-//right arrow movement
-$('#rghtarrw').click(
-	function(){
-		$("#ul").css({"margin-left":"+=500px"});
-		//animate(,5000);
-	});
-
-//left arrow movement
-$('#lftarrw').click(
-	function(){
-		$("#ul").css({"margin-left":"-=500px"});
-		//animate({"margin-left":"-=500px"},5000);
-	});

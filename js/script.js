@@ -18,6 +18,7 @@ function highlightThis(event) {
 
 //right arrow movement
 alert("hello from script");
+$('#rghtarrw').hover(function() {alert("hello from script");});
 $('#rghtarrw').click(
 	function(){
 		alert("hello");

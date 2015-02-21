@@ -14,7 +14,7 @@ function highlightThis(event) {
     alert(this.className);
     this.style.backgroundColor=backgroundColor;
 }
-
+$("#list").click(function(){alert("jquery");});
 //smooth scrolling
 /* $(function() {
   $('a[href*=#]:not([href=#])').click(function() {

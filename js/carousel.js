@@ -1,7 +1,7 @@
 //carousel
 
 //right arrow movement
-alert("hello frm caoursel");
+alert("hello from carousel");
 $('#rghtarrw').click(
 	function(){
 		alert("hello");

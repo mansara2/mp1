@@ -24,7 +24,7 @@ function(){
 		alert("hello");
 		$("#list").css({"margin-left":"500px"});
 		//animate(,5000);
-	}
+	};
 $('#rghtarrw').hover(function() {alert("hello from script");});
 $('#rghtarrw').click(
 	function(){

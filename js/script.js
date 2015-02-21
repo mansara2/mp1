@@ -17,7 +17,7 @@ function highlightThis(event) {
 //carousel
 
 //right arrow movement
-/* alert("hello from script");
+alert("hello from script");
 $('#rghtarrw').click(
 	function(){
 		alert("hello");
@@ -30,7 +30,7 @@ $('#lftarrw').click(
 	function(){
 		$("#list").css({"margin-left":"500px"});
 		//animate({"margin-left":"-=500px"},5000);
-	}); */
+	});
 $("#list").click(function(){alert("jquery");});
 //smooth scrolling
 /* $(function() {

@@ -8,6 +8,7 @@ module.exports = function(grunt) {
       my_target: {
         files: {
           'public/js/script.js': ['js/*.js']
+		  'public/js/carousel.js': ['js/*.js']
         } //files
       } //my_target
     }, //uglify

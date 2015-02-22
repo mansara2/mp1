@@ -32,9 +32,7 @@ $(document).ready(
 			//animate(,5000);
 			}
 		);
-	}
 	//position indicator
-	function(){
 		$(window).scroll(
 			function(){
 				//if($().offset.top == ){

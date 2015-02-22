@@ -57,7 +57,7 @@ section, service{
 	background: #A8C0D8;
 }
 section, sign-up{
-	position : relative;
+	position : absolute;
 	text-align: center;
 	top: 250px;
 	width: auto;
@@ -67,7 +67,7 @@ section, sign-up{
 }
 section, sign-up img{
 	position : fixed;
-	 z-index: -1;
+	z-index: -1;
 }
 #cdiv{
 	width: 900px;
@@ -84,7 +84,7 @@ section, sign-up img{
 	height: 200px;
 	width: 200px;
 	float: left;
-	margin: 0 0 10px 0;
+	margin: 0 0 20px 0;
 }
 #foot{
 	margin: 0 auto;

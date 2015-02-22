@@ -20,18 +20,18 @@ function highlightThis(event) {
 //right arrow movement
 alert("hello from script");
 $(document).ready(function(){
-		alert("hello");
 		$("#list").css({"margin-left":"500px"});
 		//animate(,5000);
-	});
-$('#rghtarrw').hover(function() {alert("hello from script");});
+		$('#rghtarrw').hover(function() {alert("hello from script");});
 $('#rghtarrw').click(
 	function(){
 		alert("hello");
-		$("#list").css({"margin-left":"500px"});
+		$("#list").css({"margin-left":"+=500px"});
 		//animate(,5000);
 	}
 );
+	});
+
 
 //left arrow movement
 $('#lftarrw').click(

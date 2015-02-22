@@ -58,13 +58,16 @@ section, service{
 }
 section, sign-up{
 	position : relative;
-	 text-align: center;
+	text-align: center;
 	top: 250px;
 	width: auto;
 	margin: 0 -9999rem;
 	padding: .25rem 9999rem;
 	background: #A8C0D8;
-	background-image: url('halfpic.jpg');
+}
+section, sign-up img{
+	position : fixed;
+	 z-index: -1;
 }
 #cdiv{
 	width: 900px;

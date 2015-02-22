@@ -8,7 +8,7 @@ $(document).ready(
 				//}
 				//if(){
 				//}
-				alert($(window).scrollTop(););
+				alert($(window).scrollTop());
 			}
 		);
 	}

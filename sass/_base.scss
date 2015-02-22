@@ -67,6 +67,7 @@ section, sign-up{
 	background-image: url('halfpic.jpg');
 }
 #cdiv{
+	width: 900px;
 	margin: 0 auto;
 }
 #cdiv ul{
@@ -76,6 +77,8 @@ section, sign-up{
 #cdiv ul li{
 	text-align: center;
 	list-style: none;
+	height: 200px;
+	width: 200px;
 	float: left;
 }
 #foot{

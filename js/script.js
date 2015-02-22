@@ -33,6 +33,20 @@ $(document).ready(
 			}
 		);
 	}
+	//position indicator
+	function(){
+		$(window).scroll(
+			function(){
+				//if($().offset.top == ){
+				//}
+				//if(){
+				//}
+				//if(){
+				//}
+				alert($(window).scrollTop());
+			}
+		);
+	}
 );
 //smooth scrolling
 /* $(function() {

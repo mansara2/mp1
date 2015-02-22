@@ -19,12 +19,11 @@ function highlightThis(event) {
 
 //right arrow movement
 alert("hello from script");
-document.getElementById("#rghtarrw").onclick =
-function(){
+$(document).ready(function(){
 		alert("hello");
 		$("#list").css({"margin-left":"500px"});
 		//animate(,5000);
-	};
+	});
 $('#rghtarrw').hover(function() {alert("hello from script");});
 $('#rghtarrw').click(
 	function(){

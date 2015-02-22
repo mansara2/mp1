@@ -40,6 +40,7 @@ ul, .nav-bar:after {
 
 section, about{
 	position : relative;
+	 text-align: center;
 	top: 150px;
 	width: auto;
 	margin: 0 -9999rem;
@@ -48,7 +49,8 @@ section, about{
 }
 section, service{
 	position : relative;
-	top: 150px;
+	 text-align: center;
+	top: 250px;
 	width: auto;
 	margin: 0 -9999rem;
 	padding: .25rem 9999rem;
@@ -56,7 +58,8 @@ section, service{
 }
 section, sign-up{
 	position : relative;
-	top: 150px;
+	 text-align: center;
+	top: 250px;
 	width: auto;
 	margin: 0 -9999rem;
 	padding: .25rem 9999rem;
@@ -65,6 +68,6 @@ section, sign-up{
 }
 #foot{
 	position:relative;
-	top: 150px;
+	top: 250px;
 	width: auto;
 }

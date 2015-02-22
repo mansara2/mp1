@@ -35,13 +35,15 @@ $(document).ready(
 	//position indicator
 		$(window).scroll(
 			function(){
-				//if($().offset.top == ){
-				//}
-				//if(){
-				//}
-				//if(){
-				//}
-				alert($(window).scrollTop());
+				if($('.about').offset.top == $(window).scrollTop()){
+					$("#aboutnav").css("color" : "white");
+				}
+				if($('.service').offset.top == $(window).scrollTop()){
+					$("#servnav").css("color" : "white");
+				}
+				if($('.signup').offset.top == $(window).scrollTop()){
+					$("#signnav").css("color" : "white");
+				}
 			}
 		);
 	}

@@ -40,8 +40,7 @@ $(document).ready(
 				}
 				if($('.service').offset.top == $(window).scrollTop()){
 					$("#servnav").css({"color" : "white"});
-				
-				
+				}
 				if($('.signup').offset.top == $(window).scrollTop()){
 					$("#signnav").css({"color" : "white"});
 				}

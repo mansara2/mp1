@@ -18,11 +18,9 @@ function highlightThis(event) {
 //carousel
 
 //right arrow movement
-alert("hello from script");
 $(document).ready(function(){
-		$("#list").css({"margin-left":"500px"});
+		$("#list").css({"margin-left":"-=500px"});
 		//animate(,5000);
-		$('#rghtarrw').hover(function() {alert("hello from script");});
 $('#rghtarrw').click(
 	function(){
 		alert("hello");

@@ -16,29 +16,24 @@ function highlightThis(event) {
     this.style.backgroundColor=backgroundColor;
 }
 //carousel
-
-//right arrow movement
-$(document).ready(function(){
-		$("#list").css({"margin-left":"-=500px"});
-		//animate(,5000);
-$('#rghtarrw').click(
+$(document).ready(
 	function(){
-		alert("hello");
-		$("#list").css({"margin-left":"+=500px"});
-		//animate(,5000);
+		//left arrow movement
+		$('#lftarrw').click(
+			function(){
+				$("#list").css({"margin-left":"+=500px"});
+			}
+		);
+			//animate(,5000);
+		//right arrow movement
+		$('#rghtarrw').click(
+			function(){
+				$("#list").css({"margin-left":"-=500px"});
+			//animate(,5000);
+			}
+		);
 	}
 );
-	});
-
-
-//left arrow movement
-$('#lftarrw').click(
-	function(){
-		$("#list").css({"margin-left":"500px"});
-		//animate({"margin-left":"-=500px"},5000);
-	}
-);
-$("#list").click(function(){alert("jquery");});
 //smooth scrolling
 /* $(function() {
   $('a[href*=#]:not([href=#])').click(function() {

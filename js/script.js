@@ -36,13 +36,13 @@ $(document).ready(
 		$(window).scroll(
 			function(){
 				if($('.about').offset.top == $(window).scrollTop()){
-					$("#aboutnav").css("color" : "white");
+					$("#aboutnav").css({"color" : "white"});
 				}
 				if($('.service').offset.top == $(window).scrollTop()){
-					$("#servnav").css("color" : "white");
+					$("#servnav").css({"color" : "white"});
 				}
 				if($('.signup').offset.top == $(window).scrollTop()){
-					$("#signnav").css("color" : "white");
+					$("#signnav").css({"color" : "white"});
 				}
 			}
 		);

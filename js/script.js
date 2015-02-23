@@ -21,7 +21,7 @@ $(document).ready(
 			function(){
 				alert('we here');
 				if($('#list').marginLeft > 0){
-					$('#list').css("margin-left":"-=500px");
+					$('#list').css("margin-left","-=500px");
 				}
 			}
 		);
@@ -29,7 +29,7 @@ $(document).ready(
 		$('#rarrow').click(
 			function(){
 				if($('#list').marginLeft < 1500){
-					$('#list').css("margin-left":"+=500px");
+					$('#list').css("margin-left","+=500px");
 				}
 			}
 		);

@@ -16,7 +16,6 @@ function highlightThis(event) {
 //carousel
 $(document).ready(
 	function(){
-		alert("we here");
 		//left arrow movement
 		$('#lftarrw').click(
 			function(){
@@ -28,7 +27,7 @@ $(document).ready(
 		//right arrow movement
 		$('#rghtarrw').click(
 			function(){
-				$("#list").css({"margin-left":"-=500px"});
+				$("#list").css("margin-left","-=500px");
 			//animate(,5000);
 			}
 		);

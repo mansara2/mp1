@@ -17,7 +17,7 @@ function highlightThis(event) {
 $(document).ready(
 	function(){
 		//left arrow movement
-		$('#lftarrw').click(
+		$('#lftarrw').hover(
 			function(){
 				alert("left clicked");
 				$("#list").css("margin-left","+=500px");
@@ -34,7 +34,7 @@ $(document).ready(
 		$(window).scroll(
 			function(){
 				if( 0 != $(window).scrollTop()){
-					$("#nav").css("width" , "50%");
+					$("#nav").css("height" , "100px");
 				}
 				if( 0 == $(window).scrollTop()){
 					$("#nav").css("width" , "100%");
@@ -45,7 +45,7 @@ $(document).ready(
 		$(window).scroll(
 			function(){
 				if($('.about').offset.top == $(window).scrollTop()){
-					$("#aboutnav").css({"color" : "white"});
+					$("#aboutnav").css("color" , "white");
 				}
 				if($('.service').offset.top == $(window).scrollTop()){
 					$("#servnav").css({"color" : "white"});

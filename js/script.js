@@ -20,7 +20,8 @@ $(document).ready(
 		//left arrow movement
 		$('#lftarrw').click(
 			function(){
-				$("#list").css({"margin-left":"+=500px"});
+				alert("left clicked");
+				$("#list").css("margin-left","+=500px");
 			}
 		);
 			//animate(,5000);

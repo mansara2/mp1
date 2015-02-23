@@ -17,27 +17,29 @@ function highlightThis(event) {
 $(document).ready(
 	function(){
 		//left arrow movement
-		$('#lftarrw').hover(
+		$('larrow').click(
 			function(){
-				alert("left clicked");
-				$("#list").css("margin-left","+=500px");
+				alert('we here');
+				if($('#list').marginLeft > 0){
+					$('#list').css("margin-left":"-=500px");
+				}
 			}
 		);
-			//animate(,5000);
 		//right arrow movement
-		$('#rghtarrw').click(
+		$('#rarrow').click(
 			function(){
-				$("#list").css("margin-left","-=500px");
-			//animate(,5000);
+				if($('#list').marginLeft < 1500){
+					$('#list').css("margin-left":"+=500px");
+				}
 			}
 		);
 		$(window).scroll(
 			function(){
 				if( 0 != $(window).scrollTop()){
-					$("#nav").css("height" , "100px");
+					$("#nav").css("height" , "25px");
 				}
 				if( 0 == $(window).scrollTop()){
-					$("#nav").css("width" , "100%");
+					$("#nav").css("height" , "50px");
 				}
 			}
 		);

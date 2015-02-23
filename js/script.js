@@ -15,8 +15,8 @@ function highlightThis(event) {
 } */
 //carousel
 $(document).ready(
-	alert("we here");
 	function(){
+		alert("we here");
 		//left arrow movement
 		$('#lftarrw').click(
 			function(){

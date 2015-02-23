@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #nav {
-  background: #304848;
+  background: #798EE0;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -25,7 +25,7 @@
   text-align: center;
 }
 #nav ul li a {
-  color: #F0D8D8;
+  color: #88C6C9;
   text-decoration: none;
   display: block;
   padding: 15px 25px;
@@ -33,7 +33,7 @@
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
-  position: relative;
+  position: fixed;
   -webkit-transition: color .25s;
   -moz-transition: color .25s;
   -ms-transition: color .25s;
@@ -41,7 +41,7 @@
   transition: color .25s;
 }
 #nav ul li a:hover {
-  color: white;
+  color: #636162;
 }
 #nav ul li a:hover:before {
   width: 100%;

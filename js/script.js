@@ -33,10 +33,15 @@ $(document).ready(
 				}
 			}
 		);
+	}
+);
+$(document).ready(
+	function(){
+		
 		$(window).scroll(
 			function(){
 				if( 0 != $(window).scrollTop()){
-					$("#nav").css("height" , "25px");
+					$("#nav").css("height" , "35px");
 				}
 				if( 0 == $(window).scrollTop()){
 					$("#nav").css("height" , "50px");

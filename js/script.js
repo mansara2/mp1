@@ -32,6 +32,16 @@ $(document).ready(
 			//animate(,5000);
 			}
 		);
+		$(window).scroll(
+			function(){
+				if( 0 != $(window).scrollTop()){
+					$("#nav").css("width" , "50%");
+				}
+				if( 0 == $(window).scrollTop()){
+					$("#nav").css("width" , "100%");
+				}
+			}
+		);
 	//position indicator
 		$(window).scroll(
 			function(){

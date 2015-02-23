@@ -46,38 +46,22 @@
 #nav ul li a:hover:before {
   width: 100%;
 }
-// #nav ul li a:before {
-  // content: "";
-  // display: block;
-  // position: absolute;
-  // left: 0;
-  // bottom: 0;
-  // height: 3px;
-  // width: 0;
-  // background: #A8C0D8;
-  // -webkit-transition: width .25s;
-  // -moz-transition: width .25s;
-  // -ms-transition: width .25s;
-  // -o-transition: width .25s;
-  // transition: width .25s;
+// #nav ul li:last-child > a:after {
+  // display: none;
 // }
-// #nav ul li.last > a:after,
-#nav ul li:last-child > a:after {
-  display: none;
-}
-#nav ul li.active a {
-  color: #F0D8D8;
-}
-#nav ul li.active a:before {
-  width: 100%;
-}
-#nav.align-right li.last > a:after,
-#nav.align-right li:last-child > a:after {
-  display: block;
-}
-#nav.align-right li:first-child a:after {
-  display: none;
-}
+// #nav ul li.active a {
+  // color: #F0D8D8;
+// }
+// #nav ul li.active a:before {
+  // width: 100%;
+// }
+// #nav.align-right li.last > a:after,
+// #nav.align-right li:last-child > a:after {
+  // display: block;
+// }
+// #nav.align-right li:first-child a:after {
+  // display: none;
+// }
 @media screen and (max-width: 768px) {
   #nav ul li {
     float: none;

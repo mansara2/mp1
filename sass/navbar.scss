@@ -13,14 +13,14 @@
   display: block;
   zoom: 1;
 }
-#nav ul:after {
-  content: " ";
-  display: block;
-  font-size: 0;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
+// #nav ul:after {
+  // content: " ";
+  // display: block;
+  // font-size: 0;
+  // height: 0;
+  // clear: both;
+  // visibility: hidden;
+// }
 #nav ul li {
   display: inline-block;
   padding: 0;
@@ -54,17 +54,6 @@
 #nav ul li a:hover:before {
   width: 100%;
 }
-// #nav ul li a:after {
-  // content: "";
-  // display: block;
-  // position: absolute;
-  // right: -3px;
-  // top: 19px;
-  // height: 6px;
-  // width: 6px;
-  // background: #A8C0D8;
-  // opacity: .5;
-// }
 #nav ul li a:before {
   content: "";
   display: block;

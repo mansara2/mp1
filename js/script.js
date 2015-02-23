@@ -28,9 +28,9 @@ $(document).ready(
 		//right arrow movement
 		$('#rarrow').click(
 			function(){
-				$('#list').css({}"margin-left":"+=500px"});
+				$('#list').css({"margin-left":"+=500px"});
 				if($('#list').marginLeft < 1500){
-				$('#list').css({}"margin-left":"+=500px"});
+				$('#list').css({"margin-left":"+=500px"});
 				}
 			}
 		);

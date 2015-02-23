@@ -28,8 +28,9 @@ $(document).ready(
 		//right arrow movement
 		$('#rarrow').click(
 			function(){
+				$('#list').css({}"margin-left":"+=500px"});
 				if($('#list').marginLeft < 1500){
-					$('#list').css("margin-left","+=500px");
+				$('#list').css({}"margin-left":"+=500px"});
 				}
 			}
 		);
@@ -52,13 +53,13 @@ $(document).ready(
 		$(window).scroll(
 			function(){
 				if($('.about').offset.top == $(window).scrollTop()){
-					$("#aboutnav").css("color" , "white");
+					$("#aboutnav").css("color" , "black");
 				}
 				if($('.service').offset.top == $(window).scrollTop()){
-					$("#servnav").css({"color" : "white"});
+					$("#servnav").css("color" , "black");
 				}
 				if($('.signup').offset.top == $(window).scrollTop()){
-					$("#signnav").css({"color" : "white"});
+					$("#signnav").css("color" , "black");
 				}
 			}
 		);
